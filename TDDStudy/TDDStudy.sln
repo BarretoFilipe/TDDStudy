@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30309.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BiggerAndSmallerClassLibrary", "BiggerAndSmallerClassLibrary\BiggerAndSmallerClassLibrary.csproj", "{C92CC4E5-D203-4D26-AE7D-BAB12E1EA6AE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BiggerAndSmallerUnitTest", "BiggerAndSmallerUnitTest\BiggerAndSmallerUnitTest.csproj", "{C991FB33-A93A-4689-83CB-523F765ADA93}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BiggerAndSmaller", "BiggerAndSmaller", "{2513C80C-A2AE-46F6-BB41-B38CEB8F59A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RomanNumbers", "RomanNumbers", "{D4120F0C-3A99-49B2-AAA6-20D2440618AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanNumbersClassLibrary", "RomanNumbersClassLibrary\RomanNumbersClassLibrary.csproj", "{B7BE8A8C-9986-481C-A31A-CB4EBC19E64D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanNumbersUnitTest", "RomanNumbersUnitTest\RomanNumbersUnitTest.csproj", "{E37FB9A7-343F-4E0E-ACCE-C82B2C9863CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C92CC4E5-D203-4D26-AE7D-BAB12E1EA6AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C92CC4E5-D203-4D26-AE7D-BAB12E1EA6AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C92CC4E5-D203-4D26-AE7D-BAB12E1EA6AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C92CC4E5-D203-4D26-AE7D-BAB12E1EA6AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C991FB33-A93A-4689-83CB-523F765ADA93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C991FB33-A93A-4689-83CB-523F765ADA93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C991FB33-A93A-4689-83CB-523F765ADA93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C991FB33-A93A-4689-83CB-523F765ADA93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7BE8A8C-9986-481C-A31A-CB4EBC19E64D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7BE8A8C-9986-481C-A31A-CB4EBC19E64D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7BE8A8C-9986-481C-A31A-CB4EBC19E64D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7BE8A8C-9986-481C-A31A-CB4EBC19E64D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E37FB9A7-343F-4E0E-ACCE-C82B2C9863CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E37FB9A7-343F-4E0E-ACCE-C82B2C9863CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E37FB9A7-343F-4E0E-ACCE-C82B2C9863CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E37FB9A7-343F-4E0E-ACCE-C82B2C9863CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C92CC4E5-D203-4D26-AE7D-BAB12E1EA6AE} = {2513C80C-A2AE-46F6-BB41-B38CEB8F59A3}
+		{C991FB33-A93A-4689-83CB-523F765ADA93} = {2513C80C-A2AE-46F6-BB41-B38CEB8F59A3}
+		{B7BE8A8C-9986-481C-A31A-CB4EBC19E64D} = {D4120F0C-3A99-49B2-AAA6-20D2440618AB}
+		{E37FB9A7-343F-4E0E-ACCE-C82B2C9863CD} = {D4120F0C-3A99-49B2-AAA6-20D2440618AB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1B774FFD-1CC2-481E-B7F5-12AE709262EF}
+	EndGlobalSection
+EndGlobal
