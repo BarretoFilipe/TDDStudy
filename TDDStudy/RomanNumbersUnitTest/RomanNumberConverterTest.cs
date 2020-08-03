@@ -26,12 +26,6 @@ namespace RomanNumbersUnitTest
         }
 
         [Test]
-        public void MustUnderstandSymbolII()
-        {
-            BuilderRomanNumberTest("II", 2);
-        }
-
-        [Test]
         public void MustUnderstandSymbolXXII()
         {
             BuilderRomanNumberTest("XXII", 22);
