@@ -7,13 +7,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BiggerAndSmallerClassLibrar
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BiggerAndSmallerUnitTest", "BiggerAndSmallerUnitTest\BiggerAndSmallerUnitTest.csproj", "{C991FB33-A93A-4689-83CB-523F765ADA93}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BiggerAndSmaller", "BiggerAndSmaller", "{2513C80C-A2AE-46F6-BB41-B38CEB8F59A3}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - BiggerAndSmaller", "1 - BiggerAndSmaller", "{2513C80C-A2AE-46F6-BB41-B38CEB8F59A3}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RomanNumbers", "RomanNumbers", "{D4120F0C-3A99-49B2-AAA6-20D2440618AB}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - RomanNumbers", "2 - RomanNumbers", "{D4120F0C-3A99-49B2-AAA6-20D2440618AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanNumbersClassLibrary", "RomanNumbersClassLibrary\RomanNumbersClassLibrary.csproj", "{B7BE8A8C-9986-481C-A31A-CB4EBC19E64D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RomanNumbersClassLibrary", "RomanNumbersClassLibrary\RomanNumbersClassLibrary.csproj", "{B7BE8A8C-9986-481C-A31A-CB4EBC19E64D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanNumbersUnitTest", "RomanNumbersUnitTest\RomanNumbersUnitTest.csproj", "{E37FB9A7-343F-4E0E-ACCE-C82B2C9863CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RomanNumbersUnitTest", "RomanNumbersUnitTest\RomanNumbersUnitTest.csproj", "{E37FB9A7-343F-4E0E-ACCE-C82B2C9863CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - SalaryCalculation", "3 - SalaryCalculation", "{643ACA1A-F1A6-477E-84AF-0E09EAEB2F0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalaryCalculationUnitTest", "SalaryCalculationUnitTest\SalaryCalculationUnitTest.csproj", "{D145E96C-5F1E-4BC9-B879-1A5948F4160B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalaryCalculationClassLibrary", "SalaryCalculationClassLibrary\SalaryCalculationClassLibrary.csproj", "{F2D73EFE-6957-4431-AD4B-2194D29BBBF0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +43,14 @@ Global
 		{E37FB9A7-343F-4E0E-ACCE-C82B2C9863CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E37FB9A7-343F-4E0E-ACCE-C82B2C9863CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E37FB9A7-343F-4E0E-ACCE-C82B2C9863CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D145E96C-5F1E-4BC9-B879-1A5948F4160B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D145E96C-5F1E-4BC9-B879-1A5948F4160B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D145E96C-5F1E-4BC9-B879-1A5948F4160B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D145E96C-5F1E-4BC9-B879-1A5948F4160B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2D73EFE-6957-4431-AD4B-2194D29BBBF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2D73EFE-6957-4431-AD4B-2194D29BBBF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2D73EFE-6957-4431-AD4B-2194D29BBBF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2D73EFE-6957-4431-AD4B-2194D29BBBF0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,6 +60,8 @@ Global
 		{C991FB33-A93A-4689-83CB-523F765ADA93} = {2513C80C-A2AE-46F6-BB41-B38CEB8F59A3}
 		{B7BE8A8C-9986-481C-A31A-CB4EBC19E64D} = {D4120F0C-3A99-49B2-AAA6-20D2440618AB}
 		{E37FB9A7-343F-4E0E-ACCE-C82B2C9863CD} = {D4120F0C-3A99-49B2-AAA6-20D2440618AB}
+		{D145E96C-5F1E-4BC9-B879-1A5948F4160B} = {643ACA1A-F1A6-477E-84AF-0E09EAEB2F0A}
+		{F2D73EFE-6957-4431-AD4B-2194D29BBBF0} = {643ACA1A-F1A6-477E-84AF-0E09EAEB2F0A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1B774FFD-1CC2-481E-B7F5-12AE709262EF}
