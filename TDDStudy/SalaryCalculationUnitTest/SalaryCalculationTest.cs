@@ -29,6 +29,16 @@ namespace SalaryCalculationUnitTest
 
             Assert.AreEqual(developer.Salary * 0.8m, salary);
         }
+        
+        [Test]
+        public void ShouldCalculateSalaryForDevelopersWithSalaryEqualsTheLimit()
+        {
+            var developer = new Developer("Filipe", 3000.0m);
+
+            var salary = developer.CalculateSalary();
+
+            Assert.AreEqual(developer.Salary * 0.9m, salary);
+        }
 
         [Test]
         public void ShouldCalculateSalaryForTestersWithSalaryBelowTheLimit()
@@ -48,6 +58,16 @@ namespace SalaryCalculationUnitTest
             var salary = tester.CalculateSalary();
 
             Assert.AreEqual(tester.Salary * 0.75m, salary);
+        }
+
+        [Test]
+        public void ShouldCalculateSalaryForTestersWithSalaryEqualsTheLimit()
+        {
+            var tester = new Tester("José", 2500.0m);
+
+            var salary = tester.CalculateSalary();
+
+            Assert.AreEqual(tester.Salary * 0.85m, salary);
         }
     }
 }

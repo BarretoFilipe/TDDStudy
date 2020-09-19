@@ -26,6 +26,36 @@ namespace RomanNumbersUnitTest
         }
 
         [Test]
+        public void MustUnderstandSymbolX()
+        {
+            BuilderRomanNumberTest("X", 10);
+        }
+
+        [Test]
+        public void MustUnderstandSymbolL()
+        {
+            BuilderRomanNumberTest("L", 50);
+        }
+
+        [Test]
+        public void MustUnderstandSymbolC()
+        {
+            BuilderRomanNumberTest("C", 100);
+        }
+
+        [Test]
+        public void MustUnderstandSymbolD()
+        {
+            BuilderRomanNumberTest("D", 500);
+        }
+
+        [Test]
+        public void MustUnderstandSymbolM()
+        {
+            BuilderRomanNumberTest("M", 1000);
+        }
+
+        [Test]
         public void MustUnderstandSymbolXXII()
         {
             BuilderRomanNumberTest("XXII", 22);

@@ -348,3 +348,7 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+/TDDStudy/SalaryCalculationUnitTest/StrykerOutput/2020-09-19.10-00-21/reports/mutation-report.html
+/TDDStudy/SalaryCalculationUnitTest/StrykerOutput/2020-09-19.09-57-05/reports/mutation-report.html
+/TDDStudy/RomanNumbersUnitTest/StrykerOutput/2020-09-19.18-10-17/reports/mutation-report.html
+/TDDStudy/RomanNumbersUnitTest/StrykerOutput/2020-09-19.10-08-06/reports/mutation-report.html
