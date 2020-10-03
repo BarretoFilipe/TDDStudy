@@ -1,21 +1,16 @@
 ﻿namespace SalaryCalculationClassLibrary
 {
-    public abstract class Employee
+    public class Employee
     {
-        public string Name { get; private set; }
-        public decimal Salary { get; private set; }
-
-        public Employee(string name, decimal salary)
+        public Employee(string name, decimal salary, Role role)
         {
             Name = name;
             Salary = salary;
+            Role = role;
         }
 
-        public virtual decimal CalculateSalary()
-        {
-            if (Salary > 2500)
-                return Salary * 0.75m;
-            return Salary * 0.85m;
-        }
+        public string Name { get; private set; }
+        public decimal Salary { get; private set; }
+        public Role Role { get; private set; }
     }
 }

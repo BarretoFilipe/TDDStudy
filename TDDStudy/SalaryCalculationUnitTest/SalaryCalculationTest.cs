@@ -5,69 +5,72 @@ namespace SalaryCalculationUnitTest
 {
     public class SalaryCalculationTest
     {
+        private CalculateSalary calculateSalary;
+
         [SetUp]
         public void Setup()
         {
+            calculateSalary = new CalculateSalary();
         }
 
         [Test]
         public void ShouldCalculateSalaryForDevelopersWithSalaryBelowTheLimit()
         {
-            var developer = new Developer("Filipe", 1500.0m);
+            var employee = new Employee("Filipe", 1500.0m, Role.Developer);
 
-            var salary = developer.CalculateSalary();
+            var salary = calculateSalary.Calculate(employee);
 
-            Assert.AreEqual(developer.Salary * 0.9m, salary);
+            Assert.AreEqual(employee.Salary * 0.9m, salary);
         }
 
         [Test]
         public void ShouldCalculateSalaryForDevelopersWithSalaryAboveTheLimit()
         {
-            var developer = new Developer("Filipe", 4000.0m);
+            var employee = new Employee("Filipe", 4000.0m, Role.Developer);
 
-            var salary = developer.CalculateSalary();
+            var salary = calculateSalary.Calculate(employee);
 
-            Assert.AreEqual(developer.Salary * 0.8m, salary);
+            Assert.AreEqual(employee.Salary * 0.8m, salary);
         }
-        
+
         [Test]
         public void ShouldCalculateSalaryForDevelopersWithSalaryEqualsTheLimit()
         {
-            var developer = new Developer("Filipe", 3000.0m);
+            var employee = new Employee("Filipe", 3000.0m, Role.Developer);
 
-            var salary = developer.CalculateSalary();
+            var salary = calculateSalary.Calculate(employee);
 
-            Assert.AreEqual(developer.Salary * 0.9m, salary);
+            Assert.AreEqual(employee.Salary * 0.9m, salary);
         }
 
         [Test]
         public void ShouldCalculateSalaryForTestersWithSalaryBelowTheLimit()
         {
-            var tester = new Tester("José", 1500.0m);
+            var employee = new Employee("José", 1500.0m, Role.Tester);
 
-            var salary = tester.CalculateSalary();
+            var salary = calculateSalary.Calculate(employee);
 
-            Assert.AreEqual(tester.Salary * 0.85m, salary);
+            Assert.AreEqual(employee.Salary * 0.85m, salary);
         }
 
         [Test]
         public void ShouldCalculateSalaryForTestersWithSalaryAboveTheLimit()
         {
-            var tester = new Tester("José", 4000.0m);
+            var employee = new Employee("José", 4000.0m, Role.Tester);
 
-            var salary = tester.CalculateSalary();
+            var salary = calculateSalary.Calculate(employee);
 
-            Assert.AreEqual(tester.Salary * 0.75m, salary);
+            Assert.AreEqual(employee.Salary * 0.75m, salary);
         }
 
         [Test]
         public void ShouldCalculateSalaryForTestersWithSalaryEqualsTheLimit()
         {
-            var tester = new Tester("José", 2500.0m);
+            var employee = new Employee("José", 2500.0m, Role.Tester);
 
-            var salary = tester.CalculateSalary();
+            var salary = calculateSalary.Calculate(employee);
 
-            Assert.AreEqual(tester.Salary * 0.85m, salary);
+            Assert.AreEqual(employee.Salary * 0.85m, salary);
         }
     }
 }
